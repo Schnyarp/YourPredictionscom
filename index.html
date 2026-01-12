@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourPredictions.com - Premium Domain For Sale</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f5f7fa; /* Light bluish-gray background */
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      font-size: 36px;
+      color: #4b0082; /* Vibrant purple */
+      margin: 0;
+    }
+    header p {
+      font-size: 18px;
+      color: #555;
+    }
+    section {
+      margin: 20px 0;
+      text-align: left;
+    }
+    section h2 {
+      font-size: 24px;
+      color: #4b0082;
+    }
+    section p {
+      line-height: 1.8;
+    }
+    .highlights {
+      background-color: #ede7f6; /* Light purple highlight */
+      padding: 15px;
+      border-left: 4px solid #4b0082;
+      margin: 15px 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+    form textarea {
+      resize: vertical;
+    }
+    .email-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: #4b0082;
+      text-decoration: none;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    .email-link:hover {
+      background-color: #320053; /* Darker purple hover */
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+  <script>
+    function submitOffer() {
+      // Collect form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const country = document.getElementById('country').value;
+      const telephone = document.getElementById('telephone').value;
+      const offer = document.getElementById('offer').value;
+      const message = document.getElementById('message').value;
+
+      // Construct mailto link
+      const subject = encodeURIComponent("Offer for YourPredictions.com");
+      const body = encodeURIComponent(
+        `Hi,\n\nI am interested in purchasing the domain YourPredictions.com. Here are my details:\n\n` +
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Country: ${country}\n` +
+        `Telephone: ${telephone || "N/A"}\n` +
+        `Offer Amount: ${offer}\n` +
+        `Message: ${message || "N/A"}\n\nRegards,\n${name}`
+      );
+
+      // Open user's email client
+      window.location.href = `mailto:domain@yourpredictions.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>YourPredictions.com is For Sale!</h1>
+      <p>Get this premium domain to build a visionary and innovative brand.</p>
+    </header>
+    <section>
+      <h2>Why Choose YourPredictions.com?</h2>
+      <p>YourPredictions.com is a premium and versatile domain name that lends itself to a variety of industries and purposes, such as:</p>
+      <ul>
+        <li>A forecast platform for weather, stock markets, or technology trends</li>
+        <li>An astrological or fortune-telling application</li>
+        <li>A blog or website about data predictions and analytics</li>
+        <li>A branding name for AI or machine learning prediction software</li>
+      </ul>
+      <div class="highlights">
+        <strong>Key Benefits:</strong>
+        <ul>
+          <li>Easy to remember and spell</li>
+          <li>Sleek, innovative, and highly brandable</li>
+          <li>Boosts your credibility in the forward-looking industries</li>
+          <li>Perfect for targeting users interested in predictions and analytics</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Make An Offer</h2>
+      <p>YourPredictions.com is a high-value asset with enormous potential for your business. Don't miss the opportunity to own this remarkable domain name.</p>
+      <p><strong>We use Escrow to ensure a safe and secure transaction for both buyer and seller.</strong></p>
+      <p>If you prefer to contact us directly, you can reach us at <a href="mailto:domain@yourpredictions.com">domain@yourpredictions.com</a>.</p>
+      <form onsubmit="event.preventDefault(); submitOffer();">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email Address" required>
+        <input type="text" id="country" placeholder="Your Country" required>
+        <input type="tel" id="telephone" placeholder="Your Telephone Number (Optional)">
+        <input type="number" id="offer" placeholder="Your Offer Amount" required>
+        <textarea id="message" rows="5" placeholder="Your Message (Optional)"></textarea>
+        <button type="submit" class="email-link">Submit Your Offer</button>
+      </form>
+    </section>
+    <section>
+      <h2 class="helpful-resource">Helpful Resource</h2>
+      <p><a href="https://corelli.com/domains.html" target="_blank">How to Choose A Domain Name</a></p>
+    </section>
+    <footer>
+      <p>&copy; 2026 YourPredictions.com. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
